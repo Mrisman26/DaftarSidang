@@ -67,7 +67,7 @@ class User extends Authenticatable
     }
 
     public function dosenProfile() {
-        return $this->hasOne(dosenProfile::class);
+        return $this->hasOne(DosenProfile::class);
     }
 
     public function sidangRegistrations()
